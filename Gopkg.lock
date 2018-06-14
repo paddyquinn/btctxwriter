@@ -31,13 +31,19 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/roasbeef/btcd"
+  packages = ["btcec"]
+  revision = "a03db407e40d3b66ea29984263bbc8bf4d2f04c4"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ripemd160"]
-  revision = "8ac0e0d97ce45cd83d1d7243c060cb8461dda5e9"
+  revision = "37a17fe027db43f76fd88b056ddf588563fc8722"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "80e947f7faef5f3c3b6975c283b6617278ab68eda2da7afbfe5cd596a40c6307"
+  inputs-digest = "b27412ebc7833d7f1bccd43a366814c6178b225f90d941cfd36f3f18163ac6ce"
   solver-name = "gps-cdcl"
   solver-version = 1
